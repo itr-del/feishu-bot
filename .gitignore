@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv
+*.egg-info/
+
+# Secrets — NEVER commit
+.env
+*.env
+*.key
+*.pem
+credentials/
+secrets/
+
+# Logs
+*.log
+server.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test
+test_*.py
+debug_*.py
